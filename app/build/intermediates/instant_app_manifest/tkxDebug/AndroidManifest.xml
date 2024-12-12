@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tkx.driver"
+    android:targetSandboxVersion="2"
+    android:versionCode="54"
+    android:versionName="10.5.4" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+"
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <!--
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" android:minSdkVersion = "33" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" android:minSdkVersion = "33" />
+    -->
+
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.namotaxi.driver.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+
+    <!--
+ <uses-permission android:name="android.permission.READ_PHONE_STATE" android:maxSdkVersion="29" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    -->
+    <!--
+ <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <permission
+        android:name="com.tkx.driver.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <permission
+        android:name="com.tkx.driver.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+        <package android:name="com.google.android.apps.maps" />
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+
+            <data android:mimeType="text/plain" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.tkx.driver.permission.C2D_MESSAGE" />
+    <!--
+ Use to restore notifications the user hasn't interacted with.
+         They could be missed notifications if the user reboots their device if this isn't in place.
+    -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+    <!-- Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+
+    <application
+        android:name="com.tkx.driver.MainApplication"
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="true"
+        android:roundIcon="@drawable/app_logo"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.tkx.driver.Modelo"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name="com.tkx.driver.activities.JunoPaymentWebView"
+            android:exported="true" />
+        <activity
+            android:name="com.tkx.driver.activities.MercadoCardPayment"
+            android:exported="true" />
+        <activity android:name="com.tkx.driver.FlutterWavePaymentGateway" />
+        <activity android:name="com.tkx.driver.paypal_webview" />
+        <activity
+            android:name="com.tkx.driver.SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.tkx.driver.CashOutActivity" />
+        <activity android:name="com.tkx.driver.NewEarningDriver" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity android:name="com.tkx.driver.TrackerActivity" />
+        <activity android:name="com.tkx.driver.activities.placepicker.NewPlacePickerActivity" />
+        <activity android:name="com.tkx.driver.CountryCodeActivity" />
+        <activity android:name="com.tkx.driver.activities.demo.DemoActivity" />
+        <activity android:name="com.tkx.driver.customization.BancardPaymentGateway" />
+        <activity android:name="com.tkx.driver.customization.paystack.PayWithPaystackActivity" /> <!-- <activity android:name=".customization.ssl_commerz.SslCommerzPaymentGateway" /> -->
+        <activity android:name="com.tkx.driver.customization.mercado.MercadoPaymentActivity" />
+        <activity android:name="com.tkx.driver.earnings.NewEarningActivity" />
+        <activity android:name="com.tkx.driver.activities.placepicker.PlacePickerActivity" />
+        <activity android:name="com.tkx.driver.activities.ExpiryModule.ExpiryDocumentActivity" /> <!-- <provider -->
+        <!-- android:name="androidx.core.content.FileProvider" -->
+        <!-- android:authorities="${applicationId}.provider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/provider_paths" /> -->
+        <!-- </provider> -->
+        <service
+            android:name="com.tkx.driver.FloatingViewService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_0Q9QUVz0kaWmK3" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" /> <!-- <activity -->
+        <!-- android:name="namotaxixi.driver.SplashActivity" -->
+        <!-- android:screenOrientation="portrait" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <service
+            android:name="com.tkx.driver.firebase.MyFirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.tkx.driver.firebase.MyFirebaseInstanceService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.tkx.driver.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+        <activity
+            android:name="com.tkx.driver.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tkx.driver.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tkx.driver.PriceFareActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+        <activity
+            android:name="com.tkx.driver.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.AboutActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+        <activity
+            android:name="com.tkx.driver.ForgotPass_ConfirmPass"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.TermsAndCondition"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+        <activity
+            android:name="com.tkx.driver.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.DocumentActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name="com.tkx.driver.others.MyBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.tkx.driver" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.tkx.driver.fcmclasses.OneSignalServiceClass"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" /> <!-- <receiver -->
+        <!-- <service android:name="com.google.android.gms.analytics.CampaignTrackingService" /> -->
+        <service android:name="com.tkx.driver.location.UpdateServiceClass" />
+
+        <activity android:name="com.tkx.driver.RidesActivity" />
+        <activity
+            android:name="com.tkx.driver.CustomerSupportActivity"
+            android:screenOrientation="portrait" /> <!-- <service -->
+        <activity
+            android:name="com.tkx.driver.earnings.WeeklyStatementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.earnings.DailyStatementActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.OnlineOfflineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+        <activity
+            android:name="com.tkx.driver.ReceiveRentalPassengerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.RentalTrackRideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.MeterImageActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+        <activity
+            android:name="com.tkx.driver.RentalPriceFareActiviy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.BaseActivity"
+            android:screenOrientation="portrait" /> <!-- <receiver -->
+        <activity
+            android:name="com.tkx.driver.SelectedRentalRideActivity"
+            android:label="@string/title_activity_selected_rental_ride"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.tkx.driver.NotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.NotificationWebViewActivity"
+            android:screenOrientation="portrait" /> <!-- <service -->
+        <!-- android:name=".location.LocationUpdateService" -->
+        <!-- android:exported="true" -->
+        <!-- android:permission="android.permission.BIND_JOB_SERVICE" /> -->
+        <activity
+            android:name="com.tkx.driver.OTPVerifierActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tkx.driver.SosActivity"
+            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+        <activity
+            android:name="com.tkx.driver.PhotoUploaderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.StatusActiity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.TripHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.ReceivePassengerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.ManualUserDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.settings.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.wallet.WalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.AddVehicleActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.tkx.driver.VehicleListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.TrackingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.SpecificTripDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.FareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.AddMoneyToWalletActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.CardListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.EarningActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.NewRequestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.HomeAddressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.PersonalDocumentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.HomeAddressListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.tkx.driver.BankDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.tkx.driver.UpdatePasswordActivity" />
+        <activity
+            android:name="com.tkx.driver.Ride_otp_Activity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name="com.tkx.driver.activities.enterCardDetails.EnterCardDetailsActivity" />
+        <activity android:name="com.tkx.driver.customization.CCAvenue.WebViewActivity" />
+        <activity android:name="com.tkx.driver.activities.chooseAddVehicleType.ChooseVehicleType" />
+        <activity android:name="com.tkx.driver.activities.chooseAddVehicleType.AddExistingVehicleActivity" />
+        <activity android:name="com.tkx.driver.activities.vehicleModule.SampleVehicleActivity" />
+        <activity android:name="com.tkx.driver.sup_driver.SuperDriver" />
+        <activity android:name="com.tkx.driver.RatingActivity" />
+        <activity android:name="com.tkx.driver.rating_module.DriverRatingActivity" />
+        <activity android:name="com.tkx.driver.ReferAndEarnActivity" />
+        <activity android:name="com.tkx.driver.ManualRide_Otp_activity" />
+        <activity android:name="com.tkx.driver.SetRadiusActivity" />
+        <activity
+            android:name="com.tkx.driver.activities.subscriptionModule.SubscriptionModuleList"
+            android:label="@string/title_activity_subscription_module_list" /> <!-- <activity android:name=".customization.razorpay.RazorPayPaymentGateway" /> -->
+        <!-- <activity android:name=".customization.paytm.PaytmPayment" /> -->
+        <activity android:name="com.tkx.driver.activities.subscriptionModule.SubscriptionModuleDetails" />
+        <activity android:name="com.tkx.driver.EmergencyContatcsActivity" />
+        <activity android:name="com.tkx.driver.AddEmergencyContactFieldActivity" />
+
+        <provider
+            android:name="com.tkx.driver.activities.GenericFileProvider"
+            android:authorities="com.tkx.driver.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="98d1c22678b43c653936f551bc9bfb0b8096431a" />
+
+        <receiver
+            android:name="com.onesignal.GcmBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+            <intent-filter android:priority="999" >
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.tkx.driver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.onesignal.NotificationOpenedActivityHMS"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.onesignal.BootUpReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.onesignal.UpgradeReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.flutterwave.raveandroid.RavePayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.flutterwave.raveandroid.card.savedcards.SavedCardsActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.apporioinfolabs.ats_sdk.AtsLocationServiceClass" />
+
+        <activity
+            android:name="com.mlsdev.rximagepicker.HiddenActivity"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.stripe.android.view.AddSourceActivity"
+            android:theme="@style/StripeDefaultTheme"
+            android:windowSoftInputMode="stateVisible" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentMethodsActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity>
+        <activity
+            android:name="com.stripe.android.view.PaymentFlowActivity"
+            android:theme="@style/StripeDefaultTheme" >
+        </activity> <!-- Autocomplete -->
+        <activity
+            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:label="@string/places_autocomplete_label"
+            android:theme="@style/PlacesAutocompleteThemeOverlay"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+        </activity>
+        <activity
+            android:name="co.paystack.android.ui.PinActivity"
+            android:theme="@style/Paystack.Dialog.PinEntry" />
+        <activity
+            android:name="co.paystack.android.ui.OtpActivity"
+            android:theme="@style/Paystack.Dialog.OtpEntry" />
+        <activity
+            android:name="co.paystack.android.ui.AuthActivity"
+            android:theme="@style/Paystack.Dialog.OtpEntry" />
+        <activity
+            android:name="co.paystack.android.ui.CardActivity"
+            android:theme="@style/Paystack.Dialog.CardEntry" />
+        <activity
+            android:name="co.paystack.android.ui.AddressVerificationActivity"
+            android:theme="@style/Paystack.Dialog" />
+        <activity
+            android:name="com.nguyenhoanglam.imagepicker.ui.imagepicker.ImagePickerActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/imagepicker_ImagePickerTheme" />
+        <activity
+            android:name="com.nguyenhoanglam.imagepicker.ui.camera.CameraActivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/imagepicker_CameraTheme" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.tkx.driver.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/imagepicker_file_paths" />
+        </provider>
+
+        <activity
+            android:name="com.flutterwave.raveutils.verification.VerificationActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_application_id" />
+        <meta-data
+            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+            android:value="true" />
+
+        <activity
+            android:name="com.firebase.ui.auth.KickoffActivity"
+            android:exported="false"
+            android:label=""
+            android:theme="@style/FirebaseUI.Transparent" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+            android:exported="false"
+            android:label="@string/fui_title_recover_password_activity" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.email.RegisterEmailActivity"
+            android:exported="false"
+            android:label="@string/fui_sign_in_default" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.phone.PhoneVerificationActivity"
+            android:exported="false"
+            android:label="@string/fui_sign_in_with_phone_number"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.accountlink.WelcomeBackIdpPrompt"
+            android:exported="false"
+            android:label="@string/fui_title_welcome_back_idp_prompt" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.accountlink.WelcomeBackPasswordPrompt"
+            android:exported="false"
+            android:label="@string/fui_title_welcome_back_password_prompt" />
+        <activity
+            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+            android:exported="false"
+            android:label="@string/fui_default_toolbar_title" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/facebook_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="onesignal_app_id"
+            android:value="d4dbb841-035c-49fd-884e-e324473d4262" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+        <meta-data
+            android:name="onesignal_google_project_number"
+            android:value="str:REMOTE" />
+
+        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+
+        <service
+            android:name="com.onesignal.HmsMessageServiceOneSignal"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.onesignal.GcmIntentService" />
+        <service
+            android:name="com.onesignal.GcmIntentJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.RestoreKickoffJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.onesignal.SyncService"
+            android:stopWithTask="true" />
+        <service
+            android:name="com.onesignal.SyncJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.onesignal.PermissionsActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.onesignal.NotificationRestoreService" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.tkx.driver.com.squareup.picasso"
+            android:exported="false" />
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.tkx.driver.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.tkx.driver.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+    </application>
+
+</manifest>

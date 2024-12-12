@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "applicationId": "com.tkx.driver",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "BUNDLE"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "fullName": "",
+        "baseName": "",
+        "dirName": ""
+      },
+      "path": "../../../../../tkx/release/app-tkx-release.aab",
+      "properties": {}
+    }
+  ]
+}

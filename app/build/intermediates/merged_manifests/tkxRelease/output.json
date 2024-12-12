@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.tkx.driver",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 54,
+        "versionName": "10.5.4",
+        "outputFile": "app-tkx-release.apk",
+        "fullName": "tkxRelease",
+        "baseName": "tkx-release",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.tkx.driver",
+        "split": "",
+        "minSdkVersion": "19"
+      }
+    }
+  ]
+}

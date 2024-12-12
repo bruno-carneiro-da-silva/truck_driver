@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fui_error_weak_password" translation_description="Inline error for weak password"> <item quantity="one">La contraseña no es lo suficientemente segura. Usa al menos %1$d carácter y una combinación de letras y números</item> <item quantity="other">La contraseña no es lo suficientemente segura. Usa al menos %1$d caracteres y una combinación de letras y números</item> </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificación nueva</item>
+    <item quantity="other">%d notificaciones nuevas</item>
+  </plurals>
+    <string name="bottomsheet_action_expand_halfway">Expandir hasta la mitad</string>
+    <string name="character_counter_content_description">Caracteres ingresados: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Se excedió en %1$d el límite de caracteres de %2$d</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="fui_accessibility_logo" translation_description="Content description for app logo">Logotipo de la app</string>
+    <string name="fui_button_text_save" translation_description="Button text to save input form">Guardar</string>
+    <string name="fui_button_text_send" translation_description="Button text to send recovery email">Enviar</string>
+    <string name="fui_code_sent" translation_description="Progress dialog success transition once sms is sent">Se envió el código.</string>
+    <string name="fui_confirm_recovery_body" translation_description="Alert dialog displayed after password recovery email is sent">Sigue las instrucciones que se enviaron a %1$s para recuperar la contraseña.</string>
+    <string name="fui_continue_phone_login" translation_description="Button text to submit phone number and send sms">Continuar</string>
+    <string name="fui_create_account_preamble_pp_only" translation_description="Text shown when creating an account with only privacy policy">Si presionas %1$s, indicas que aceptas la %2$s.</string>
+    <string name="fui_create_account_preamble_tos_and_pp" translation_description="Text shown when creating an account with both terms of service and privacy policy.">Si presionas %1$s, indicas que aceptas las %2$s y la %3$s.</string>
+    <string name="fui_create_account_preamble_tos_only" translation_description="Text shown when creating an account with only terms of service">Si presionas %1$s, indicas que aceptas las %2$s.</string>
+    <string name="fui_done" translation_description="Progress dialog success transition once sms is sent">Listo</string>
+    <string name="fui_email_account_creation_error" translation_description="Inline error for signup failure">No se pudo registrar la cuenta de correo electrónico</string>
+    <string name="fui_email_hint" translation_description="Hint in email input field">Correo electrónico</string>
+    <string name="fui_enter_confirmation_code" translation_description="Phone number verification code entry form title">Ingresa el código de 6 dígitos que enviamos al número</string>
+    <string name="fui_error_email_does_not_exist" translation_description="Inline error when user attempt signin with invalid account">La dirección de correo electrónico no coincide con una cuenta existente.</string>
+    <string name="fui_error_quota_exceeded" translation_description="Error message when the Firebase project&apos;s quota has been exceeded.">Ocurrió un problema durante la verificación de tu número de teléfono</string>
+    <string name="fui_error_session_expired" translation_description="Error message when SMS confirmation code has expired.">Este código ya no es válido</string>
+    <string name="fui_error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">Este número de teléfono se usó demasiadas veces</string>
+    <string name="fui_error_user_collision" translation_description="Inline error when user signs up using an existing email account">Ya existe una cuenta con esa dirección de correo electrónico.</string>
+    <string name="fui_general_error" translation_description="Toast text flashing general error">Ocurrió un error.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">Código incorrecto. Vuelve a intentarlo.</string>
+    <string name="fui_incorrect_code_dialog_positive_button_text" translation_description="Text to dismiss error alert dialog">Aceptar</string>
+    <string name="fui_invalid_email_address" translation_description="Inline error for invalid email address">La dirección de correo electrónico es incorrecta</string>
+    <string name="fui_invalid_phone_number" translation_description="Inline error when phone number entered is invalid">Ingresa un número de teléfono válido</string>
+    <string name="fui_missing_email_address" translation_description="Inline error for empty email address in input field">Ingresa tu dirección de correo electrónico para continuar</string>
+    <string name="fui_name_hint" translation_description="Hint for last name input field">Nombre y apellido</string>
+    <string name="fui_next_default" translation_description="Button text to continue">Siguiente</string>
+    <string name="fui_password_hint" translation_description="Hint for password input field">Contraseña</string>
+    <string name="fui_password_recovery_body" translation_description="Password recovery message body">Recibe un correo electrónico con instrucciones para cambiar la contraseña.</string>
+    <string name="fui_phone_hint" translation_description="Hint for phone input field">Número de teléfono</string>
+    <string name="fui_privacy_policy" translation_description="Link text to web url containing the app&apos;s privacy policy">Política de privacidad</string>
+    <string name="fui_progress_dialog_checking_accounts" translation_description="Progress dialog text while checking for existing accounts">Buscando cuentas existentes…</string>
+    <string name="fui_progress_dialog_loading" translation_description="Loading text in dialog">Cargando…</string>
+    <string name="fui_progress_dialog_sending" translation_description="Progress dialog while password recovery email is being sent">Enviando…</string>
+    <string name="fui_progress_dialog_signing_in" translation_description="Progress dialog text">Accediendo…</string>
+    <string name="fui_progress_dialog_signing_up" translation_description="Dialog text while waiting for server&apos;s signup response">Registrando…</string>
+    <string name="fui_provider_name_email">Correo electrónico</string>
+    <string name="fui_provider_name_phone">Teléfono</string>
+    <string name="fui_required_field" translation_description="Inline error for required field">Este campo no puede estar en blanco.</string>
+    <string name="fui_resend_code" translation_description="Link text to resend verification sms">Reenviar código</string>
+    <string name="fui_resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">Se reenviará el código en 0:%02d</string>
+    <string name="fui_resending" translation_description="Progress dialog text when user clicks on resend sms">Reenviando…</string>
+    <string name="fui_retrieving_sms" translation_description="Progress dialog text when sms is being retrieved before auto-submit">Recuperando SMS…</string>
+    <string name="fui_sign_in_default" translation_description="Button text to sign in">Acceder</string>
+    <string name="fui_sign_in_with_email" translation_description="Sign in button text">Acceder con el correo electrónico</string>
+    <string name="fui_sign_in_with_facebook" translation_description="Sign in button text">Acceder con Facebook</string>
+    <string name="fui_sign_in_with_google" translation_description="Sign in button text">Acceder con Google</string>
+    <string name="fui_sign_in_with_phone" translation_description="Sign in button text">Acceder con el teléfono</string>
+    <string name="fui_sign_in_with_phone_number" translation_description="Label for phone number input form">Acceder con el número de teléfono</string>
+    <string name="fui_sign_in_with_twitter" translation_description="Sign in button text">Acceder con Twitter</string>
+    <string name="fui_signed_in_with_specific_account" translation_description="Post signin message showing method of authentication">Accediste como %1$s</string>
+    <string name="fui_sms_terms_of_service" translation_description="Fine print warning displayed below Verify Phone Number button">Si presionas “%1$s”, es posible que se envíe un SMS. Podrían aplicarse las tarifas de mensajes y datos.</string>
+    <string name="fui_terms_of_service" translation_description="Link text to web url containing the app&apos;s terms of service">Condiciones del servicio</string>
+    <string name="fui_title_confirm_recover_password" translation_description="Password recovery confirmation message">Revisa tu correo electrónico</string>
+    <string name="fui_title_recover_password_activity" translation_description="Recover password screen title">Recuperar contraseña</string>
+    <string name="fui_title_register_email" translation_description="Title for signup form">Registrarse</string>
+    <string name="fui_trouble_signing_in" translation_description="Link leading to forgot password flow">¿Tienes problemas para acceder?</string>
+    <string name="fui_verified" translation_description="Progress dialog success transition when phone number was verified">¡Verificado!</string>
+    <string name="fui_verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">Verificar número de teléfono</string>
+    <string name="fui_verify_phone_number_title" translation_description="Phone number entry form title">Ingresa tu número de teléfono</string>
+    <string name="fui_verify_your_phone_title" translation_description="Button text to complete phone number verification">Verifica tu número de teléfono</string>
+    <string name="fui_verifying" translation_description="Progress dialog text while phone number is being verified">Verificando…</string>
+    <string name="fui_welcome_back_email_header" translation_description="Message for returning users">¡Te damos la bienvenida nuevamente!</string>
+    <string name="fui_welcome_back_idp_header" translation_description="Inline subtitle to users whose signup was interrupted since an existing account was detected">Ya tienes una cuenta</string>
+    <string name="fui_welcome_back_idp_prompt" translation_description="Message to users that need to signin using existing IDP accounts">Ya usaste %1$s. Accede con %2$s para continuar.</string>
+    <string name="fui_welcome_back_password_prompt_body" translation_description="Message to users that need to signin using existing email accounts">Ya usaste %1$s para acceder. Ingresa la contraseña correspondiente.</string>
+    <string name="icon_content_description">Ícono de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="material_clock_toggle_content_description">Selecciona a.m. o p.m.</string>
+    <string name="material_hour_selection">Seleccione la hora.</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A. M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para ingresar la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P. M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de entrada de texto para ingresar la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Quitar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Seleccionar fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El rango no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navegar al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera de rango: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s - fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s-%2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un período</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio - fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de entrada de calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Presiona para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de entrada de texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Presiona para seleccionar un año</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+</resources>

@@ -1,0 +1,1370 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tkx.driver"
+4    android:versionCode="54"
+5    android:versionName="10.5.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:8:5-68
+13-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:8:22-65
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:9:5-76
+14-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:9:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:10:5-111
+15-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+17-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:12:5-98
+17-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:12:22-95
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:13:5-81
+18-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:15:5-80
+19-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:15:22-77
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:16:5-65
+20-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:16:22-62
+21"
+22    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+22-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:17:5-76
+22-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:17:22-73
+23    <!--
+24    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" android:minSdkVersion = "33" />
+25    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" android:minSdkVersion = "33" />
+26    -->
+27
+28    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+28-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:21:5-110
+28-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:21:22-71
+29    <uses-permission android:name="android.permission.CALL_PHONE" />
+29-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:22:5-69
+29-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:22:22-66
+30    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+30-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:23:5-75
+30-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:23:22-72
+31    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+31-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:24:5-71
+31-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:24:22-68
+32    <uses-permission android:name="com.namotaxi.driver.permission.MAPS_RECEIVE" />
+32-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:25:5-83
+32-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:25:22-80
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:26:5-78
+33-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:26:22-75
+34    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+34-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:27:5-82
+34-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:27:22-79
+35    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+35-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:28:5-91
+35-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:28:22-88
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:29:5-77
+36-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:29:22-74
+37    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+37-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:30:5-85
+37-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:30:22-82
+38    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+38-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:31:5-79
+38-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:31:22-76
+39
+40    <!--
+41 <uses-permission android:name="android.permission.READ_PHONE_STATE" android:maxSdkVersion="29" />
+42    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+43    -->
+44    <!--
+45 <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+46    <uses-permission android:name="android.permission.READ_SMS" />
+47    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+48    -->
+49    <uses-feature
+49-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:42:5-44:36
+50        android:name="android.hardware.telephony"
+50-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:43:9-50
+51        android:required="false" />
+51-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:44:9-33
+52    <uses-feature
+52-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:45:5-47:36
+53        android:name="android.hardware.location.network"
+53-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:46:9-57
+54        android:required="false" />
+54-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:47:9-33
+55    <uses-feature
+55-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:48:5-50:36
+56        android:name="android.hardware.location.gps"
+56-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:49:9-53
+57        android:required="false" />
+57-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:50:9-33
+58
+59    <supports-screens
+59-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:52:5-58:40
+60        android:anyDensity="true"
+60-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:53:9-34
+61        android:largeScreens="true"
+61-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:54:9-36
+62        android:normalScreens="true"
+62-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:55:9-37
+63        android:resizeable="true"
+63-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:56:9-34
+64        android:smallScreens="true"
+64-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:57:9-36
+65        android:xlargeScreens="true" />
+65-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:58:9-37
+66
+67    <permission
+68        android:name="com.tkx.driver.permission.MAPS_RECEIVE"
+68-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:61:9-64
+69        android:protectionLevel="signature" />
+69-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:62:9-44
+70    <permission
+71        android:name="com.tkx.driver.permission.C2D_MESSAGE"
+71-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:64:9-63
+72        android:protectionLevel="signature" />
+72-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:65:9-44
+73
+74    <uses-feature
+74-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:67:5-69:35
+75        android:glEsVersion="0x00020000"
+75-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:68:9-41
+76        android:required="true" />
+76-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:69:9-32
+77
+78    <queries>
+78-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:71:5-79:15
+79        <package android:name="com.google.android.apps.maps" />
+79-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:72:9-64
+79-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:72:18-61
+80
+81        <intent>
+81-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:74:9-78:18
+82            <action android:name="android.intent.action.VIEW" />
+82-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:13-65
+82-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:21-62
+83
+84            <data android:mimeType="text/plain" />
+84-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:77:13-51
+84-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:77:19-48
+85        </intent>
+86    </queries>
+87
+88    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+88-->[com.github.samirapporio:Apporio-Tracking-System:1.0.14] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\928bd7e2fd80321ce0c91dbdb03b3e18\transformed\jetified-Apporio-Tracking-System-1.0.14\AndroidManifest.xml:15:5-76
+88-->[com.github.samirapporio:Apporio-Tracking-System:1.0.14] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\928bd7e2fd80321ce0c91dbdb03b3e18\transformed\jetified-Apporio-Tracking-System-1.0.14\AndroidManifest.xml:15:22-73
+89    <uses-permission android:name="android.permission.VIBRATE" />
+89-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\5540c210800a7ada29ff44d936ec25aa\transformed\jetified-pinpad-1.0.4\AndroidManifest.xml:11:5-66
+89-->[co.paystack.android.design.widget:pinpad:1.0.4] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\5540c210800a7ada29ff44d936ec25aa\transformed\jetified-pinpad-1.0.4\AndroidManifest.xml:11:22-63
+90    <uses-permission android:name="com.tkx.driver.permission.C2D_MESSAGE" />
+90-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:5-79
+90-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:11:22-76
+91    <!--
+92 Use to restore notifications the user hasn't interacted with.
+93         They could be missed notifications if the user reboots their device if this isn't in place.
+94    -->
+95    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+95-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:5-81
+95-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:29:22-78
+96    <!-- Samsung -->
+97    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+97-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:5-86
+97-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:31:22-83
+98    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+98-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:5-87
+98-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:32:22-84
+99    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+99-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:5-81
+99-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:33:22-78
+100    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+100-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:5-83
+100-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:34:22-80
+101    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+101-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:5-88
+101-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:35:22-85
+102    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+102-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:5-92
+102-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:36:22-89
+103    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+103-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:5-84
+103-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:37:22-81
+104    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+104-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:5-83
+104-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:38:22-80
+105    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+105-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:5-91
+105-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:39:22-88
+106    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+106-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:5-92
+106-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:40:22-89
+107    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+107-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:5-93
+107-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:41:22-90
+108    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+108-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:5-73
+108-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:42:22-70
+109    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+109-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:5-82
+109-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:43:22-79
+110    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+110-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:5-83
+110-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:44:22-80
+111    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+111-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:5-88
+111-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:45:22-85
+112    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+112-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:5-89
+112-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:46:22-86
+113
+114    <application
+114-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:81:5-442:19
+115        android:name="com.tkx.driver.MainApplication"
+115-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:82:9-40
+116        android:allowBackup="false"
+116-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:83:9-36
+117        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+117-->[androidx.core:core:1.3.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\50956498fd3310785dd2fa966f05ec52\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+118        android:debuggable="true"
+119        android:icon="@drawable/app_logo"
+119-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:84:9-42
+120        android:label="@string/app_name"
+120-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:85:9-41
+121        android:largeHeap="true"
+121-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:86:9-33
+122        android:requestLegacyExternalStorage="true"
+122-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:87:9-52
+123        android:resizeableActivity="true"
+123-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:88:9-42
+124        android:roundIcon="@drawable/app_logo"
+124-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:89:9-47
+125        android:supportsRtl="true"
+125-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:14:9-35
+126        android:testOnly="true"
+127        android:theme="@style/AppTheme"
+127-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:90:9-40
+128        android:usesCleartextTraffic="true" >
+128-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:91:9-44
+129        <activity
+129-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:95:9-101:20
+130            android:name="com.tkx.driver.Modelo"
+130-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:96:13-35
+131            android:exported="false" >
+131-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:97:13-37
+132            <meta-data
+132-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:98:13-100:36
+133                android:name="android.app.lib_name"
+133-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:99:17-52
+134                android:value="" />
+134-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:100:17-33
+135        </activity>
+136        <activity
+136-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:102:9-104:39
+137            android:name="com.tkx.driver.activities.JunoPaymentWebView"
+137-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:103:13-58
+138            android:exported="true" />
+138-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:104:13-36
+139        <activity
+139-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:105:9-107:39
+140            android:name="com.tkx.driver.activities.MercadoCardPayment"
+140-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:106:13-58
+141            android:exported="true" />
+141-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:107:13-36
+142        <activity android:name="com.tkx.driver.FlutterWavePaymentGateway" />
+142-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:108:9-63
+142-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:108:19-60
+143        <activity android:name="com.tkx.driver.paypal_webview" />
+143-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:109:9-52
+143-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:109:19-49
+144        <activity
+144-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:110:9-120:20
+145            android:name="com.tkx.driver.SplashActivity"
+145-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:111:13-43
+146            android:exported="true"
+146-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:112:13-36
+147            android:label="@string/app_name"
+147-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:113:13-45
+148            android:theme="@style/AppTheme.NoActionBar" >
+148-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:114:13-56
+149            <intent-filter>
+149-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:115:13-119:29
+150                <action android:name="android.intent.action.MAIN" />
+150-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:116:17-69
+150-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:116:25-66
+151
+152                <category android:name="android.intent.category.LAUNCHER" />
+152-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:118:17-77
+152-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:118:27-74
+153            </intent-filter>
+154        </activity>
+155        <activity android:name="com.tkx.driver.CashOutActivity" />
+155-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:121:9-53
+155-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:121:19-50
+156        <activity android:name="com.tkx.driver.NewEarningDriver" />
+156-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:122:9-54
+156-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:122:19-51
+157
+158        <meta-data
+158-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:124:9-126:54
+159            android:name="com.google.android.geo.API_KEY"
+159-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:125:13-58
+160            android:value="@string/google_map_key" />
+160-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:126:13-51
+161
+162        <activity android:name="com.tkx.driver.TrackerActivity" />
+162-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:128:9-53
+162-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:128:19-50
+163        <activity android:name="com.tkx.driver.activities.placepicker.NewPlacePickerActivity" />
+163-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:129:9-83
+163-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:129:19-80
+164        <activity android:name="com.tkx.driver.CountryCodeActivity" />
+164-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:130:9-57
+164-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:130:19-54
+165        <activity android:name="com.tkx.driver.activities.demo.DemoActivity" />
+165-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:131:9-66
+165-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:131:19-63
+166        <activity android:name="com.tkx.driver.customization.BancardPaymentGateway" />
+166-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:132:9-73
+166-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:132:19-70
+167        <activity android:name="com.tkx.driver.customization.paystack.PayWithPaystackActivity" /> <!-- <activity android:name=".customization.ssl_commerz.SslCommerzPaymentGateway" /> -->
+167-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:133:9-84
+167-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:133:19-81
+168        <activity android:name="com.tkx.driver.customization.mercado.MercadoPaymentActivity" />
+168-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:134:9-82
+168-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:134:19-79
+169        <activity android:name="com.tkx.driver.earnings.NewEarningActivity" />
+169-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:135:9-65
+169-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:135:19-62
+170        <activity android:name="com.tkx.driver.activities.placepicker.PlacePickerActivity" />
+170-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:136:9-80
+170-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:136:19-77
+171        <activity android:name="com.tkx.driver.activities.ExpiryModule.ExpiryDocumentActivity" /> <!-- <provider -->
+171-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:137:9-84
+171-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:137:19-81
+172        <!-- android:name="androidx.core.content.FileProvider" -->
+173        <!-- android:authorities="${applicationId}.provider" -->
+174        <!-- android:exported="false" -->
+175        <!-- android:grantUriPermissions="true"> -->
+176        <!-- <meta-data -->
+177        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+178        <!-- android:resource="@xml/provider_paths" /> -->
+179        <!-- </provider> -->
+180        <service
+180-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:146:9-149:40
+181            android:name="com.tkx.driver.FloatingViewService"
+181-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:147:13-48
+182            android:enabled="true"
+182-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:148:13-35
+183            android:exported="false" />
+183-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:149:13-37
+184
+185        <meta-data
+185-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:151:9-153:55
+186            android:name="com.razorpay.ApiKey"
+186-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:152:13-47
+187            android:value="rzp_test_0Q9QUVz0kaWmK3" />
+187-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:153:13-52
+188
+189        <uses-library
+189-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:155:9-157:40
+190            android:name="org.apache.http.legacy"
+190-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:156:13-50
+191            android:required="false" /> <!-- <activity -->
+191-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:157:13-37
+192        <!-- android:name="namotaxixi.driver.SplashActivity" -->
+193        <!-- android:screenOrientation="portrait" -->
+194        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+195        <!-- <intent-filter> -->
+196        <!-- <action android:name="android.intent.action.MAIN" /> -->
+197        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+198        <!-- </intent-filter> -->
+199        <!-- </activity> -->
+200        <service
+200-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:166:9-172:19
+201            android:name="com.tkx.driver.firebase.MyFirebaseMessagingService"
+201-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:167:13-64
+202            android:exported="true" >
+202-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:168:13-36
+203            <intent-filter>
+203-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:169:13-171:29
+204                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+204-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:170:17-78
+204-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:170:25-75
+205            </intent-filter>
+206        </service>
+207        <service
+207-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:173:9-179:19
+208            android:name="com.tkx.driver.firebase.MyFirebaseInstanceService"
+208-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:174:13-63
+209            android:exported="true" >
+209-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:175:13-36
+210            <intent-filter>
+210-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:176:13-178:29
+211                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+211-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:177:17-80
+211-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:177:25-77
+212            </intent-filter>
+213        </service>
+214
+215        <activity
+215-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:181:9-186:80
+216            android:name="com.tkx.driver.MainActivity"
+216-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:182:13-41
+217            android:launchMode="singleTask"
+217-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:183:13-44
+218            android:screenOrientation="portrait"
+218-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:184:13-49
+219            android:theme="@style/AppTheme.NoActionBar"
+219-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:185:13-56
+220            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+220-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:186:13-77
+221        <activity
+221-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:187:9-190:57
+222            android:name="com.tkx.driver.LoginActivity"
+222-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:188:13-42
+223            android:screenOrientation="portrait"
+223-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:189:13-49
+224            android:windowSoftInputMode="stateHidden" />
+224-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:190:13-54
+225        <activity
+225-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:191:9-194:57
+226            android:name="com.tkx.driver.RegisterActivity"
+226-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:192:13-45
+227            android:screenOrientation="portrait"
+227-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:193:13-49
+228            android:windowSoftInputMode="stateHidden" />
+228-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:194:13-54
+229        <activity
+229-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:195:9-198:80
+230            android:name="com.tkx.driver.PriceFareActivity"
+230-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:196:13-46
+231            android:screenOrientation="portrait"
+231-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:197:13-49
+232            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+232-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:198:13-77
+233        <activity
+233-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:199:9-201:52
+234            android:name="com.tkx.driver.ProfileActivity"
+234-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:200:13-44
+235            android:screenOrientation="portrait" />
+235-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:201:13-49
+236        <activity
+236-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:202:9-205:80
+237            android:name="com.tkx.driver.AboutActivity"
+237-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:203:13-42
+238            android:screenOrientation="portrait"
+238-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:204:13-49
+239            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+239-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:205:13-77
+240        <activity
+240-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:206:9-208:52
+241            android:name="com.tkx.driver.ForgotPass_ConfirmPass"
+241-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:207:13-51
+242            android:screenOrientation="portrait" />
+242-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:208:13-49
+243        <activity
+243-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:209:9-212:80
+244            android:name="com.tkx.driver.TermsAndCondition"
+244-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:210:13-46
+245            android:screenOrientation="portrait"
+245-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:211:13-49
+246            android:windowSoftInputMode="stateHidden|adjustPan|adjustResize" />
+246-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:212:13-77
+247        <activity
+247-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:213:9-215:52
+248            android:name="com.tkx.driver.ChangePasswordActivity"
+248-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:214:13-51
+249            android:screenOrientation="portrait" />
+249-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:215:13-49
+250        <activity
+250-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:216:9-218:52
+251            android:name="com.tkx.driver.DocumentActivity"
+251-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:217:13-45
+252            android:screenOrientation="portrait" />
+252-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:218:13-49
+253
+254        <receiver
+254-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:220:9-226:20
+255            android:name="com.tkx.driver.others.MyBroadcastReceiver"
+255-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:221:13-55
+256            android:exported="true" >
+256-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:222:13-36
+257            <intent-filter>
+257-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:223:13-225:29
+258                <action android:name="com.tkx.driver" />
+258-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:224:25-56
+259            </intent-filter>
+260        </receiver>
+261
+262        <service
+262-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:228:9-235:19
+263            android:name="com.tkx.driver.fcmclasses.OneSignalServiceClass"
+263-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:229:13-61
+264            android:exported="false"
+264-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:230:13-37
+265            android:permission="android.permission.BIND_JOB_SERVICE" >
+265-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:231:13-69
+266            <intent-filter>
+266-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:232:13-234:29
+267                <action android:name="com.onesignal.NotificationExtender" />
+267-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:233:17-77
+267-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:233:25-74
+268            </intent-filter>
+269        </service>
+270
+271        <meta-data
+271-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:237:9-239:69
+272            android:name="com.google.android.gms.version"
+272-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:238:13-58
+273            android:value="@integer/google_play_services_version" /> <!-- <receiver -->
+273-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:239:13-66
+274        <!-- <service android:name="com.google.android.gms.analytics.CampaignTrackingService" /> -->
+275        <service android:name="com.tkx.driver.location.UpdateServiceClass" />
+275-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:241:9-64
+275-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:241:18-61
+276
+277        <activity android:name="com.tkx.driver.RidesActivity" />
+277-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:243:9-245:48
+277-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:244:13-42
+278        <activity
+278-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:246:9-249:48
+279            android:name="com.tkx.driver.CustomerSupportActivity"
+279-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:247:13-52
+280            android:screenOrientation="portrait" /> <!-- <service -->
+280-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:248:13-49
+281        <activity
+281-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:250:9-252:52
+282            android:name="com.tkx.driver.earnings.WeeklyStatementActivity"
+282-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:251:13-61
+283            android:screenOrientation="portrait" />
+283-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:252:13-49
+284        <activity
+284-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:253:9-255:52
+285            android:name="com.tkx.driver.earnings.DailyStatementActivity"
+285-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:254:13-60
+286            android:screenOrientation="portrait" />
+286-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:255:13-49
+287        <activity
+287-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:256:9-260:37
+288            android:name="com.tkx.driver.OnlineOfflineActivity"
+288-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:257:13-50
+289            android:screenOrientation="portrait"
+289-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:258:13-49
+290            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+290-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:259:13-73
+291        <activity
+291-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:261:9-263:52
+292            android:name="com.tkx.driver.ReceiveRentalPassengerActivity"
+292-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:262:13-59
+293            android:screenOrientation="portrait" />
+293-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:263:13-49
+294        <activity
+294-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:264:9-266:52
+295            android:name="com.tkx.driver.RentalTrackRideActivity"
+295-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:265:13-52
+296            android:screenOrientation="portrait" />
+296-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:266:13-49
+297        <activity
+297-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:267:9-270:37
+298            android:name="com.tkx.driver.MeterImageActivity"
+298-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:268:13-47
+299            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+299-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:269:13-73
+300        <activity
+300-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:271:9-273:52
+301            android:name="com.tkx.driver.RentalPriceFareActiviy"
+301-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:272:13-51
+302            android:screenOrientation="portrait" />
+302-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:273:13-49
+303        <activity
+303-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:274:9-276:52
+304            android:name="com.tkx.driver.BaseActivity"
+304-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:275:13-41
+305            android:screenOrientation="portrait" /> <!-- <receiver -->
+305-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:276:13-49
+306        <activity
+306-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:277:9-280:59
+307            android:name="com.tkx.driver.SelectedRentalRideActivity"
+307-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:278:13-55
+308            android:label="@string/title_activity_selected_rental_ride"
+308-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:279:13-72
+309            android:theme="@style/AppTheme.NoActionBar" />
+309-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:280:13-56
+310        <activity
+310-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:281:9-283:52
+311            android:name="com.tkx.driver.NotificationActivity"
+311-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:282:13-49
+312            android:screenOrientation="portrait" />
+312-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:283:13-49
+313        <activity
+313-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:284:9-286:52
+314            android:name="com.tkx.driver.NotificationWebViewActivity"
+314-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:285:13-56
+315            android:screenOrientation="portrait" /> <!-- <service -->
+315-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:286:13-49
+316        <!-- android:name=".location.LocationUpdateService" -->
+317        <!-- android:exported="true" -->
+318        <!-- android:permission="android.permission.BIND_JOB_SERVICE" /> -->
+319        <activity
+319-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:290:9-293:57
+320            android:name="com.tkx.driver.OTPVerifierActivity"
+320-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:291:13-48
+321            android:screenOrientation="portrait"
+321-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:292:13-49
+322            android:windowSoftInputMode="stateHidden" />
+322-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:293:13-54
+323        <activity
+323-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:294:9-297:37
+324            android:name="com.tkx.driver.SosActivity"
+324-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:295:13-40
+325            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" />
+325-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:296:13-73
+326        <activity
+326-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:298:9-300:52
+327            android:name="com.tkx.driver.PhotoUploaderActivity"
+327-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:299:13-50
+328            android:screenOrientation="portrait" />
+328-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:300:13-49
+329        <activity
+329-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:301:9-303:52
+330            android:name="com.tkx.driver.StatusActiity"
+330-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:302:13-42
+331            android:screenOrientation="portrait" />
+331-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:303:13-49
+332        <activity
+332-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:304:9-306:52
+333            android:name="com.tkx.driver.ChatActivity"
+333-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:305:13-41
+334            android:screenOrientation="portrait" />
+334-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:306:13-49
+335        <activity
+335-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:307:9-309:52
+336            android:name="com.tkx.driver.TripHistoryActivity"
+336-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:308:13-48
+337            android:screenOrientation="portrait" />
+337-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:309:13-49
+338        <activity
+338-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:310:9-312:52
+339            android:name="com.tkx.driver.ReceivePassengerActivity"
+339-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:311:13-53
+340            android:screenOrientation="portrait" />
+340-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:312:13-49
+341        <activity
+341-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:313:9-315:52
+342            android:name="com.tkx.driver.ManualUserDetailActivity"
+342-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:314:13-53
+343            android:screenOrientation="portrait" />
+343-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:315:13-49
+344        <activity
+344-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:316:9-318:52
+345            android:name="com.tkx.driver.settings.SettingsActivity"
+345-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:317:13-54
+346            android:screenOrientation="portrait" />
+346-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:318:13-49
+347        <activity
+347-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:319:9-321:52
+348            android:name="com.tkx.driver.wallet.WalletActivity"
+348-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:320:13-50
+349            android:screenOrientation="portrait" />
+349-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:321:13-49
+350        <activity
+350-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:322:9-325:57
+351            android:name="com.tkx.driver.AddVehicleActivity"
+351-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:323:13-47
+352            android:screenOrientation="portrait"
+352-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:324:13-49
+353            android:windowSoftInputMode="stateHidden" />
+353-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:325:13-54
+354        <activity
+354-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:326:9-328:52
+355            android:name="com.tkx.driver.VehicleListActivity"
+355-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:327:13-48
+356            android:screenOrientation="portrait" />
+356-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:328:13-49
+357        <activity
+357-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:329:9-331:52
+358            android:name="com.tkx.driver.TrackingActivity"
+358-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:330:13-45
+359            android:screenOrientation="portrait" />
+359-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:331:13-49
+360        <activity
+360-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:332:9-334:52
+361            android:name="com.tkx.driver.SpecificTripDetailsActivity"
+361-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:333:13-56
+362            android:screenOrientation="portrait" />
+362-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:334:13-49
+363        <activity
+363-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:335:9-337:52
+364            android:name="com.tkx.driver.FareActivity"
+364-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:336:13-41
+365            android:screenOrientation="portrait" />
+365-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:337:13-49
+366        <activity
+366-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:338:9-340:52
+367            android:name="com.tkx.driver.AddMoneyToWalletActivity"
+367-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:339:13-53
+368            android:screenOrientation="portrait" />
+368-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:340:13-49
+369        <activity
+369-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:341:9-343:52
+370            android:name="com.tkx.driver.CardListActivity"
+370-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:342:13-45
+371            android:screenOrientation="portrait" />
+371-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:343:13-49
+372        <activity
+372-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:344:9-346:52
+373            android:name="com.tkx.driver.EarningActivity"
+373-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:345:13-44
+374            android:screenOrientation="portrait" />
+374-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:346:13-49
+375        <activity
+375-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:347:9-349:52
+376            android:name="com.tkx.driver.NewRequestActivity"
+376-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:348:13-47
+377            android:screenOrientation="portrait" />
+377-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:349:13-49
+378        <activity
+378-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:350:9-352:52
+379            android:name="com.tkx.driver.HomeAddressActivity"
+379-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:351:13-48
+380            android:screenOrientation="portrait" />
+380-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:352:13-49
+381        <activity
+381-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:353:9-355:52
+382            android:name="com.tkx.driver.PersonalDocumentActivity"
+382-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:354:13-53
+383            android:screenOrientation="portrait" />
+383-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:355:13-49
+384        <activity
+384-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:356:9-358:52
+385            android:name="com.tkx.driver.HomeAddressListActivity"
+385-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:357:13-52
+386            android:screenOrientation="portrait" />
+386-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:358:13-49
+387        <activity
+387-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:359:9-361:52
+388            android:name="com.tkx.driver.BankDetailsActivity"
+388-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:360:13-48
+389            android:screenOrientation="portrait" />
+389-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:361:13-49
+390        <activity android:name="com.tkx.driver.UpdatePasswordActivity" />
+390-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:362:9-60
+390-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:362:19-57
+391        <activity
+391-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:363:9-365:58
+392            android:name="com.tkx.driver.Ride_otp_Activity"
+392-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:364:13-46
+393            android:windowSoftInputMode="adjustResize" />
+393-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:365:13-55
+394        <activity android:name="com.tkx.driver.activities.enterCardDetails.EnterCardDetailsActivity" />
+394-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:366:9-90
+394-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:366:19-87
+395        <activity android:name="com.tkx.driver.customization.CCAvenue.WebViewActivity" />
+395-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:367:9-369:50
+395-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:368:13-67
+396        <activity android:name="com.tkx.driver.activities.chooseAddVehicleType.ChooseVehicleType" />
+396-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:370:9-87
+396-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:370:19-84
+397        <activity android:name="com.tkx.driver.activities.chooseAddVehicleType.AddExistingVehicleActivity" />
+397-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:371:9-96
+397-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:371:19-93
+398        <activity android:name="com.tkx.driver.activities.vehicleModule.SampleVehicleActivity" />
+398-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:372:9-84
+398-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:372:19-81
+399        <activity android:name="com.tkx.driver.sup_driver.SuperDriver" />
+399-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:373:9-60
+399-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:373:19-57
+400        <activity android:name="com.tkx.driver.RatingActivity" />
+400-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:374:9-52
+400-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:374:19-49
+401        <activity android:name="com.tkx.driver.rating_module.DriverRatingActivity" />
+401-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:375:9-72
+401-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:375:19-69
+402        <activity android:name="com.tkx.driver.ReferAndEarnActivity" />
+402-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:376:9-58
+402-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:376:19-55
+403        <activity android:name="com.tkx.driver.ManualRide_Otp_activity" />
+403-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:377:9-61
+403-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:377:19-58
+404        <activity android:name="com.tkx.driver.SetRadiusActivity" />
+404-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:378:9-55
+404-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:378:19-52
+405        <activity
+405-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:379:9-381:79
+406            android:name="com.tkx.driver.activities.subscriptionModule.SubscriptionModuleList"
+406-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:380:13-81
+407            android:label="@string/title_activity_subscription_module_list" /> <!-- <activity android:name=".customization.razorpay.RazorPayPaymentGateway" /> -->
+407-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:381:13-76
+408        <!-- <activity android:name=".customization.paytm.PaytmPayment" /> -->
+409        <activity android:name="com.tkx.driver.activities.subscriptionModule.SubscriptionModuleDetails" />
+409-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:383:9-93
+409-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:383:19-90
+410        <activity android:name="com.tkx.driver.EmergencyContatcsActivity" />
+410-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:384:9-63
+410-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:384:19-60
+411        <activity android:name="com.tkx.driver.AddEmergencyContactFieldActivity" />
+411-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:385:9-70
+411-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:385:19-67
+412
+413        <provider
+414            android:name="com.tkx.driver.activities.GenericFileProvider"
+414-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:388:13-59
+415            android:authorities="com.tkx.driver.provider"
+415-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:389:13-60
+416            android:exported="false"
+416-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:390:13-37
+417            android:grantUriPermissions="true" >
+417-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:391:13-47
+418            <meta-data
+418-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:392:13-394:58
+419                android:name="android.support.FILE_PROVIDER_PATHS"
+419-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:393:17-67
+420                android:resource="@xml/provider_paths" />
+420-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:394:17-55
+421        </provider>
+422
+423        <activity
+423-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:397:9-399:59
+424            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+424-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:398:13-76
+425            android:theme="@style/Base.Theme.AppCompat" />
+425-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:399:13-56
+426
+427        <meta-data
+427-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:401:9-403:72
+428            android:name="io.fabric.ApiKey"
+428-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:402:13-44
+429            android:value="98d1c22678b43c653936f551bc9bfb0b8096431a" />
+429-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:403:13-69
+430
+431        <receiver
+431-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:405:9-416:20
+432            android:name="com.onesignal.GcmBroadcastReceiver"
+432-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:406:13-62
+433            android:exported="true"
+433-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:407:13-36
+434            android:permission="com.google.android.c2dm.permission.SEND" >
+434-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:408:13-73
+435
+436            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+437            <intent-filter android:priority="999" >
+437-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:411:13-415:29
+437-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:411:28-50
+438                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+438-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:412:17-81
+438-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:412:25-78
+439
+440                <category android:name="com.tkx.driver" />
+440-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:414:17-59
+440-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:414:27-56
+441            </intent-filter>
+442        </receiver>
+443
+444        <activity
+444-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:418:9-425:20
+445            android:name="com.onesignal.NotificationOpenedActivityHMS"
+445-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:419:13-71
+446            android:exported="true"
+446-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:420:13-36
+447            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+447-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:421:13-72
+448            <intent-filter>
+448-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:422:13-424:29
+449                <action android:name="android.intent.action.VIEW" />
+449-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:13-65
+449-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:21-62
+450            </intent-filter>
+451        </activity>
+452
+453        <receiver
+453-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:427:9-434:20
+454            android:name="com.onesignal.BootUpReceiver"
+454-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:428:13-56
+455            android:exported="true" >
+455-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:429:13-36
+456            <intent-filter>
+456-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:430:13-433:29
+457                <action android:name="android.intent.action.BOOT_COMPLETED" />
+457-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:431:17-79
+457-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:431:25-76
+458                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+458-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:432:17-82
+458-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:432:25-79
+459            </intent-filter>
+460        </receiver>
+461        <receiver
+461-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:435:9-441:20
+462            android:name="com.onesignal.UpgradeReceiver"
+462-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:436:13-57
+463            android:exported="true" >
+463-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:437:13-36
+464            <intent-filter>
+464-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:438:13-440:29
+465                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+465-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:439:17-84
+465-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:439:25-81
+466            </intent-filter>
+467        </receiver>
+468
+469        <activity
+469-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:15:9-19:55
+470            android:name="com.flutterwave.raveandroid.RavePayActivity"
+470-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:16:13-71
+471            android:label="@string/app_name"
+471-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:17:13-45
+472            android:screenOrientation="portrait"
+472-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:18:13-49
+473            android:windowSoftInputMode="adjustPan" />
+473-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:19:13-52
+474        <activity
+474-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:20:9-22:52
+475            android:name="com.flutterwave.raveandroid.card.savedcards.SavedCardsActivity"
+475-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:21:13-90
+476            android:screenOrientation="portrait" />
+476-->[com.github.flutterwave.rave-android:rave_android:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\d4b93445ec1ed3126d9aab2b5474ca3c\transformed\jetified-rave_android-2.1.15\AndroidManifest.xml:22:13-49
+477
+478        <service android:name="com.apporioinfolabs.ats_sdk.AtsLocationServiceClass" />
+478-->[com.github.samirapporio:Apporio-Tracking-System:1.0.14] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\928bd7e2fd80321ce0c91dbdb03b3e18\transformed\jetified-Apporio-Tracking-System-1.0.14\AndroidManifest.xml:22:9-87
+478-->[com.github.samirapporio:Apporio-Tracking-System:1.0.14] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\928bd7e2fd80321ce0c91dbdb03b3e18\transformed\jetified-Apporio-Tracking-System-1.0.14\AndroidManifest.xml:22:18-84
+479
+480        <activity
+480-->[com.mlsdev.rximagepicker:library:2.0.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\54bc96ddec5c380070fa0517dc43d883\transformed\jetified-library-2.0.2\AndroidManifest.xml:14:9-17:75
+481            android:name="com.mlsdev.rximagepicker.HiddenActivity"
+481-->[com.mlsdev.rximagepicker:library:2.0.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\54bc96ddec5c380070fa0517dc43d883\transformed\jetified-library-2.0.2\AndroidManifest.xml:15:13-67
+482            android:launchMode="singleTop"
+482-->[com.mlsdev.rximagepicker:library:2.0.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\54bc96ddec5c380070fa0517dc43d883\transformed\jetified-library-2.0.2\AndroidManifest.xml:16:13-43
+483            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+483-->[com.mlsdev.rximagepicker:library:2.0.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\54bc96ddec5c380070fa0517dc43d883\transformed\jetified-library-2.0.2\AndroidManifest.xml:17:13-72
+484        <activity
+484-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:12:9-16:20
+485            android:name="com.stripe.android.view.AddSourceActivity"
+485-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:13:13-69
+486            android:theme="@style/StripeDefaultTheme"
+486-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:14:13-54
+487            android:windowSoftInputMode="stateVisible" >
+487-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:15:13-55
+488        </activity>
+489        <activity
+489-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:17:9-20:20
+490            android:name="com.stripe.android.view.PaymentMethodsActivity"
+490-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:18:13-74
+491            android:theme="@style/StripeDefaultTheme" >
+491-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:19:13-54
+492        </activity>
+493        <activity
+493-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:21:9-24:20
+494            android:name="com.stripe.android.view.PaymentFlowActivity"
+494-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:22:13-71
+495            android:theme="@style/StripeDefaultTheme" >
+495-->[com.stripe:stripe-android:6.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\cfa8a1d8c497bb094ddc0ea736fbc7e6\transformed\jetified-stripe-android-6.1.2\AndroidManifest.xml:23:13-54
+496        </activity> <!-- Autocomplete -->
+497        <activity
+497-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:16:9-23:20
+498            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+498-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:17:13-91
+499            android:exported="false"
+499-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:18:13-37
+500            android:hardwareAccelerated="true"
+500-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:19:13-47
+501            android:label="@string/places_autocomplete_label"
+501-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:20:13-62
+502            android:theme="@style/PlacesAutocompleteThemeOverlay"
+502-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:21:13-66
+503            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+503-->[com.google.android.libraries.places:places:2.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\3ce443985793ae192c2b74133509a758\transformed\jetified-places-2.0.0\AndroidManifest.xml:22:13-71
+504        </activity>
+505        <activity
+505-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:11:9-13:63
+506            android:name="co.paystack.android.ui.PinActivity"
+506-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:12:13-62
+507            android:theme="@style/Paystack.Dialog.PinEntry" />
+507-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:13:13-60
+508        <activity
+508-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:14:9-16:63
+509            android:name="co.paystack.android.ui.OtpActivity"
+509-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:15:13-62
+510            android:theme="@style/Paystack.Dialog.OtpEntry" />
+510-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:16:13-60
+511        <activity
+511-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:17:9-19:63
+512            android:name="co.paystack.android.ui.AuthActivity"
+512-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:18:13-63
+513            android:theme="@style/Paystack.Dialog.OtpEntry" />
+513-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:19:13-60
+514        <activity
+514-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:20:9-22:64
+515            android:name="co.paystack.android.ui.CardActivity"
+515-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:21:13-63
+516            android:theme="@style/Paystack.Dialog.CardEntry" />
+516-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:22:13-61
+517        <activity
+517-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:23:9-25:54
+518            android:name="co.paystack.android.ui.AddressVerificationActivity"
+518-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:24:13-78
+519            android:theme="@style/Paystack.Dialog" />
+519-->[co.paystack.android:paystack:3.1.2] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\548516758312b83e4b98ea13dc328f6c\transformed\jetified-paystack-3.1.2\AndroidManifest.xml:25:13-51
+520        <activity
+520-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:16:9-19:67
+521            android:name="com.nguyenhoanglam.imagepicker.ui.imagepicker.ImagePickerActivity"
+521-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:17:13-93
+522            android:configChanges="orientation|screenSize"
+522-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:18:13-59
+523            android:theme="@style/imagepicker_ImagePickerTheme" />
+523-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:19:13-64
+524        <activity
+524-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:20:9-23:62
+525            android:name="com.nguyenhoanglam.imagepicker.ui.camera.CameraActivty"
+525-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:21:13-82
+526            android:screenOrientation="portrait"
+526-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:22:13-49
+527            android:theme="@style/imagepicker_CameraTheme" />
+527-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:23:13-59
+528
+529        <provider
+529-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:25:9-33:20
+530            android:name="androidx.core.content.FileProvider"
+530-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:26:13-62
+531            android:authorities="com.tkx.driver.fileprovider"
+531-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:27:13-64
+532            android:exported="false"
+532-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:28:13-37
+533            android:grantUriPermissions="true" >
+533-->[com.github.nguyenhoanglam:ImagePicker:1.3.3] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\a8b5ed9ebfa248d94732aefdb4e36af2\transformed\jetified-ImagePicker-1.3.3\AndroidManifest.xml:29:13-47
+534            <meta-data
+534-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:392:13-394:58
+535                android:name="android.support.FILE_PROVIDER_PATHS"
+535-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:393:17-67
+536                android:resource="@xml/imagepicker_file_paths" />
+536-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:394:17-55
+537        </provider>
+538
+539        <activity
+539-->[com.github.flutterwave.rave-android:rave_utils:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\0ee926128b4c547341caf9600d3dc5d8\transformed\jetified-rave_utils-2.1.15\AndroidManifest.xml:12:9-14:52
+540            android:name="com.flutterwave.raveutils.verification.VerificationActivity"
+540-->[com.github.flutterwave.rave-android:rave_utils:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\0ee926128b4c547341caf9600d3dc5d8\transformed\jetified-rave_utils-2.1.15\AndroidManifest.xml:13:13-87
+541            android:screenOrientation="portrait" />
+541-->[com.github.flutterwave.rave-android:rave_utils:2.1.15] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\0ee926128b4c547341caf9600d3dc5d8\transformed\jetified-rave_utils-2.1.15\AndroidManifest.xml:14:13-49
+542
+543        <meta-data
+543-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:19:9-21:63
+544            android:name="com.facebook.sdk.ApplicationId"
+544-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:20:13-58
+545            android:value="@string/facebook_application_id" />
+545-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:21:13-60
+546        <meta-data
+546-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:22:9-24:36
+547            android:name="com.facebook.sdk.AutoLogAppEventsEnabled"
+547-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:23:13-68
+548            android:value="true" />
+548-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:24:13-33
+549
+550        <activity
+550-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:26:9-30:61
+551            android:name="com.firebase.ui.auth.KickoffActivity"
+551-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:27:13-64
+552            android:exported="false"
+552-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:28:13-37
+553            android:label=""
+553-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:29:13-29
+554            android:theme="@style/FirebaseUI.Transparent" />
+554-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:30:13-58
+555        <activity
+555-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:31:9-34:75
+556            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+556-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:32:13-81
+557            android:exported="false"
+557-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:33:13-37
+558            android:label="@string/fui_title_recover_password_activity" />
+558-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:34:13-72
+559        <activity
+559-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:35:9-38:59
+560            android:name="com.firebase.ui.auth.ui.email.RegisterEmailActivity"
+560-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:36:13-79
+561            android:exported="false"
+561-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:37:13-37
+562            android:label="@string/fui_sign_in_default" />
+562-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:38:13-56
+563        <activity
+563-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:39:9-43:64
+564            android:name="com.firebase.ui.auth.ui.phone.PhoneVerificationActivity"
+564-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:40:13-83
+565            android:exported="false"
+565-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:41:13-37
+566            android:label="@string/fui_sign_in_with_phone_number"
+566-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:42:13-66
+567            android:windowSoftInputMode="stateAlwaysVisible" />
+567-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:43:13-61
+568        <activity
+568-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:44:9-47:73
+569            android:name="com.firebase.ui.auth.ui.accountlink.WelcomeBackIdpPrompt"
+569-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:45:13-84
+570            android:exported="false"
+570-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:46:13-37
+571            android:label="@string/fui_title_welcome_back_idp_prompt" />
+571-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:47:13-70
+572        <activity
+572-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:48:9-51:78
+573            android:name="com.firebase.ui.auth.ui.accountlink.WelcomeBackPasswordPrompt"
+573-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:49:13-89
+574            android:exported="false"
+574-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:50:13-37
+575            android:label="@string/fui_title_welcome_back_password_prompt" />
+575-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:51:13-75
+576        <activity
+576-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:52:9-55:65
+577            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+577-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:53:13-80
+578            android:exported="false"
+578-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:54:13-37
+579            android:label="@string/fui_default_toolbar_title" />
+579-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:55:13-62
+580        <activity
+580-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:56:9-60:48
+581            android:name="com.facebook.FacebookActivity"
+581-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:57:13-57
+582            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+582-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:58:13-96
+583            android:label="@string/app_name" />
+583-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:59:13-45
+584        <activity
+584-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:61:9-73:20
+585            android:name="com.facebook.CustomTabActivity"
+585-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:62:13-58
+586            android:exported="true" >
+586-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:63:13-36
+587            <intent-filter>
+587-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:65:13-72:29
+588                <action android:name="android.intent.action.VIEW" />
+588-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:13-65
+588-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:75:21-62
+589
+590                <category android:name="android.intent.category.DEFAULT" />
+590-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:68:17-76
+590-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:68:27-73
+591                <category android:name="android.intent.category.BROWSABLE" />
+591-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:69:17-78
+591-->[com.firebaseui:firebase-ui-auth:3.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\80dfbb9fd3874c2d52998e4e82f17e22\transformed\jetified-firebase-ui-auth-3.0.0\AndroidManifest.xml:69:27-75
+592
+593                <data android:scheme="@string/facebook_login_protocol_scheme" />
+593-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:77:13-51
+594            </intent-filter>
+595        </activity>
+596
+597        <meta-data
+597-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:49:9-51:51
+598            android:name="onesignal_app_id"
+598-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:50:13-44
+599            android:value="d4dbb841-035c-49fd-884e-e324473d4262" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+599-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:51:13-48
+600        <meta-data
+600-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:53:9-55:70
+601            android:name="onesignal_google_project_number"
+601-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:54:13-59
+602            android:value="str:REMOTE" />
+602-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:55:13-67
+603
+604        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+604-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:9-77
+604-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:68:19-74
+605
+606        <service
+606-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:70:9-76:19
+607            android:name="com.onesignal.HmsMessageServiceOneSignal"
+607-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:71:13-68
+608            android:exported="false" >
+608-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:72:13-37
+609            <intent-filter>
+609-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:73:13-75:29
+610                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+610-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:17-81
+610-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:74:25-78
+611            </intent-filter>
+612        </service>
+613        <service android:name="com.onesignal.GcmIntentService" />
+613-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:9-66
+613-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:86:18-63
+614        <service
+614-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:87:9-89:72
+615            android:name="com.onesignal.GcmIntentJobService"
+615-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:88:13-61
+616            android:permission="android.permission.BIND_JOB_SERVICE" />
+616-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:89:13-69
+617        <service
+617-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:90:9-92:72
+618            android:name="com.onesignal.RestoreJobService"
+618-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:91:13-59
+619            android:permission="android.permission.BIND_JOB_SERVICE" />
+619-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:92:13-69
+620        <service
+620-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:93:9-95:72
+621            android:name="com.onesignal.RestoreKickoffJobService"
+621-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:94:13-66
+622            android:permission="android.permission.BIND_JOB_SERVICE" />
+622-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:95:13-69
+623        <service
+623-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:96:9-98:43
+624            android:name="com.onesignal.SyncService"
+624-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:97:13-53
+625            android:stopWithTask="true" />
+625-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:98:13-40
+626        <service
+626-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:99:9-101:72
+627            android:name="com.onesignal.SyncJobService"
+627-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:100:13-56
+628            android:permission="android.permission.BIND_JOB_SERVICE" />
+628-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:101:13-69
+629
+630        <activity
+630-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:103:9-105:75
+631            android:name="com.onesignal.PermissionsActivity"
+631-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:104:13-61
+632            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+632-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:105:13-72
+633
+634        <service android:name="com.onesignal.NotificationRestoreService" />
+634-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:9-76
+634-->[com.onesignal:OneSignal:3.16.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\32172d26475db69f0e4c699ed92f7eda\transformed\jetified-OneSignal-3.16.1\AndroidManifest.xml:107:18-73
+635
+636        <provider
+636-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b02678c462677789bfbf530b34ba214e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+637            android:name="com.squareup.picasso.PicassoProvider"
+637-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b02678c462677789bfbf530b34ba214e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+638            android:authorities="com.tkx.driver.com.squareup.picasso"
+638-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b02678c462677789bfbf530b34ba214e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+639            android:exported="false" />
+639-->[com.squareup.picasso:picasso:2.71828] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b02678c462677789bfbf530b34ba214e\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+640        <provider
+640-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\210005e024131f542274d0a359c0f50f\transformed\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+641            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+641-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\210005e024131f542274d0a359c0f50f\transformed\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+642            android:authorities="com.tkx.driver.crashlyticsinitprovider"
+642-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\210005e024131f542274d0a359c0f50f\transformed\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+643            android:exported="false"
+643-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\210005e024131f542274d0a359c0f50f\transformed\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+644            android:initOrder="90" />
+644-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\210005e024131f542274d0a359c0f50f\transformed\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+645
+646        <activity
+646-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:24:9-31:50
+647            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+647-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:25:13-85
+648            android:excludeFromRecents="true"
+648-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:26:13-46
+649            android:exported="true"
+649-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:27:13-36
+650            android:launchMode="singleTask"
+650-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:28:13-44
+651            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+651-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:29:13-102
+652            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+652-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:30:13-72
+653
+654        <service
+654-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:33:9-39:19
+655            android:name="com.google.firebase.components.ComponentDiscoveryService"
+655-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:34:13-84
+656            android:exported="false" >
+656-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:35:13-37
+657            <meta-data
+657-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:36:13-38:85
+658                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+658-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:37:17-109
+659                android:value="com.google.firebase.components.ComponentRegistrar" />
+659-->[com.google.firebase:firebase-auth:18.1.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\b36798f4d9b933f165f4edf5ebf082b4\transformed\jetified-firebase-auth-18.1.0\AndroidManifest.xml:38:17-82
+660            <meta-data
+660-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+661                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+661-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+662                android:value="com.google.firebase.components.ComponentRegistrar" />
+662-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+663        </service>
+664        <!--
+665             FirebaseMessagingService performs security checks at runtime,
+666             but set to not exported to explicitly avoid allowing another app to call it.
+667        -->
+668        <service
+668-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\5ee6c66883beb6145d7e9150c39f921f\transformed\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:28:9-34:19
+669            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+669-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\5ee6c66883beb6145d7e9150c39f921f\transformed\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:29:13-82
+670            android:exported="false" >
+670-->[com.google.firebase:firebase-messaging:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\5ee6c66883beb6145d7e9150c39f921f\transformed\jetified-firebase-messaging-19.0.0\AndroidManifest.xml:30:13-37
+671            <intent-filter android:priority="-500" >
+671-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:169:13-171:29
+672                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+672-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:170:17-78
+672-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:170:25-75
+673            </intent-filter>
+674        </service>
+675
+676        <receiver
+676-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+677            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+677-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+678            android:exported="true"
+678-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+679            android:permission="com.google.android.c2dm.permission.SEND" >
+679-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+680            <intent-filter>
+680-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\46c1b26eb0f774d1b0c5ef6c6d09d499\transformed\jetified-firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+681                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+681-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:412:17-81
+681-->C:\tkx\179.124.193.219\truck\tkx.truck.log.br\app\android\truck_driver\app\src\main\AndroidManifest.xml:412:25-78
+682            </intent-filter>
+683        </receiver>
+684
+685        <provider
+685-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\40618863da7c06c0d384af6ed7821a5a\transformed\jetified-firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+686            android:name="com.google.firebase.provider.FirebaseInitProvider"
+686-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\40618863da7c06c0d384af6ed7821a5a\transformed\jetified-firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+687            android:authorities="com.tkx.driver.firebaseinitprovider"
+687-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\40618863da7c06c0d384af6ed7821a5a\transformed\jetified-firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+688            android:exported="false"
+688-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\40618863da7c06c0d384af6ed7821a5a\transformed\jetified-firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+689            android:initOrder="100" />
+689-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\40618863da7c06c0d384af6ed7821a5a\transformed\jetified-firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+690
+691        <activity
+691-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:23:9-27:75
+692            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+692-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:24:13-93
+693            android:excludeFromRecents="true"
+693-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:25:13-46
+694            android:exported="false"
+694-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:26:13-37
+695            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+695-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:27:13-72
+696        <!--
+697            Service handling Google Sign-In user revocation. For apps that do not integrate with
+698            Google Sign-In, this service will never be started.
+699        -->
+700        <service
+700-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:33:9-36:110
+701            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+701-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:34:13-89
+702            android:exported="true"
+702-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:35:13-36
+703            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+703-->[com.google.android.gms:play-services-auth:15.0.1] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\05fab68f69714f0142fa55a6c882d05b\transformed\jetified-play-services-auth-15.0.1\AndroidManifest.xml:36:13-107
+704
+705        <activity
+705-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\6be6026bcf7506257295b6bf654a3a8c\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:23:9-26:75
+706            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+706-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\6be6026bcf7506257295b6bf654a3a8c\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:24:13-79
+707            android:exported="false"
+707-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\6be6026bcf7506257295b6bf654a3a8c\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:25:13-37
+708            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+708-->[com.google.android.gms:play-services-base:17.3.0] C:\Users\Saulo Diniz\.gradle\caches\transforms-3\6be6026bcf7506257295b6bf654a3a8c\transformed\jetified-play-services-base-17.3.0\AndroidManifest.xml:26:13-72
+709    </application>
+710
+711</manifest>
